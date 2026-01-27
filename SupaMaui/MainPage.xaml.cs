@@ -19,7 +19,7 @@ namespace SupaMaui
             InitializeComponent();
             _supabase = supabase;
             LoadProduct();
-           // AddUser();
+            //AddUser();
 
         }
 

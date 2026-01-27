@@ -40,10 +40,10 @@
         </ListView>
         <Button x:Name="add" Text="OTP" Clicked="add_Clicked" Grid.Row="1" Margin="10" />
         <Button x:Name="del" Text="Delete" Clicked="del_Clicked" Grid.Row="1" Grid.Column="1" Margin="10" />
-        <Entry x:Name="email" Grid.Row="2" Margin="10"/>
-        <Entry x:Name="password" Grid.Row="2" Grid.Column="1" Margin="10"/>
-        <Button x:Name="enter" Text="Enter" Grid.Row="3" Clicked="enter_Clicked" Margin="10"/>
-        <Entry x:Name="otp" Grid.Row="3" Grid.Column="1" Margin="10"/>
+        <Entry AutomationId="email" x:Name="email" Grid.Row="2" Margin="10"/>
+        <Entry AutomationId="pass" x:Name="password" Grid.Row="2" Grid.Column="1" Margin="10"/>
+        <Button AutomationId="enter" x:Name="enter" Text="Enter" Grid.Row="3" Clicked="enter_Clicked" Margin="10"/>
+        <Entry  x:Name="otp" Grid.Row="3" Grid.Column="1" Margin="10"/>
     </Grid>
 
 </ContentPage>
