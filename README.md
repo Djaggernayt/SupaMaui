@@ -9,6 +9,7 @@
   Selenium.Support
 Собрать APK созданного приложения в режиме Debug (В свойствах проекта убрать галочку быстрое развертывание)
 <img width="452" height="140" alt="image" src="https://github.com/user-attachments/assets/ff678950-3190-4a16-b0ff-2564354e54e9" />
+
 Скопировать путь до APK
 
 Установка среды эмуляции:
