@@ -75,9 +75,9 @@ namespace SupaMaui
         private async void enter_Clicked(object sender, EventArgs e)
         {
 
-                await _supabase.Auth.SignIn(email.Text, password.Text);
+               // await _supabase.Auth.SignIn(email.Text, password.Text);
 
-                
+            await Navigation.PushAsync(new ChatPage(_supabase));
                 // где то тут должна быть проверка
                 //var option = new Supabase.Gotrue.SignInWithPasswordlessEmailOptions(email.Text);
                 //await _supabase.Auth.SignInWithOtp(option);
