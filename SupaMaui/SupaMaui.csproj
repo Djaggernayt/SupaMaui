@@ -69,4 +69,10 @@
 		<PackageReference Include="Supabase" Version="1.1.1" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="ChatPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>

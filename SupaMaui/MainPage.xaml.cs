@@ -76,9 +76,11 @@ namespace SupaMaui
         {
 
                 await _supabase.Auth.SignIn(email.Text, password.Text);
-            // где то тут должна быть проверка
-                var option = new Supabase.Gotrue.SignInWithPasswordlessEmailOptions(email.Text);
-                await _supabase.Auth.SignInWithOtp(option);
+
+                
+                // где то тут должна быть проверка
+                //var option = new Supabase.Gotrue.SignInWithPasswordlessEmailOptions(email.Text);
+                //await _supabase.Auth.SignInWithOtp(option);
 
 
             
