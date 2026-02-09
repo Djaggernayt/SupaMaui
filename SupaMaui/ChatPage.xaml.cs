@@ -20,7 +20,8 @@ public partial class ChatPage : ContentPage
         SubscribeRealtime();
         loadMessage();
         
-        
+        //Servies initualizate()
+
         //await _supabase.Realtime.ConnectAsync();
 
         //this.Title = _supabase.Auth.CurrentUser.Id;
