@@ -41,7 +41,7 @@ public partial class ChatPage : ContentPage
 
 
 
-    private async Task SubscribeRealtime()
+    private async void SubscribeRealtime()
     {
 
         await _supabase.From<Messages>().On(ListenType.All, async (sender, change) =>
