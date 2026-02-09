@@ -21,7 +21,7 @@ public partial class ChatPage : ContentPage
         loadMessage();
         
         
-
+        //await _supabase.Realtime.ConnectAsync();
 
         //this.Title = _supabase.Auth.CurrentUser.Id;
 
